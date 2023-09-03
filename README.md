@@ -23,20 +23,11 @@ One of the crucial aspects of web development is user authentication and managem
 #### Authentication and Authorization:
 The project covers user authentication and authorization, ensuring that only authorized users can perform certain actions, like creating and editing blog posts.
 
-#### User Comments:
-Blogger supports user comments on blog posts, illustrating how to handle user-generated content and establish relationships between different models.
-
-#### Pagination:
-As the project grows, you'll learn how to implement pagination for long lists of blog posts, enhancing the user experience.
-
 #### Search Functionality:
 Blogger includes a basic search feature that allows users to search for specific blog posts by keywords, introducing you to the concept of full-text search in Django.
 
 #### User Profiles:
 It provides a simple user profile page, demonstrating how to display user-specific information and activities.
-
-#### Security Measures:
-Blogger covers security best practices, including protecting against common web vulnerabilities such as Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF).
 
 ## 🔹Home
 ![Home (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/68b3760f-f588-4180-987c-a95a2bd736d3)
