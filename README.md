@@ -30,24 +30,18 @@ Blogger includes a basic search feature that allows users to search for specific
 It provides a simple user profile page, demonstrating how to display user-specific information and activities.
 
 ## 🔹Home
-![Home (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/68b3760f-f588-4180-987c-a95a2bd736d3)
+![Home (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/bc687787-72db-4810-abbf-5f68bdc50de6)
 ## 🔹Register
-![Register (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/af9da119-ea41-4fe4-88f9-a00106cbf093)
-
+![Register (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/862b6588-49bf-4bf6-a77e-55db845f4ffd)
 ## 🔹Login
-![Login (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/75735360-39f1-4785-ada1-c4bfefb5ebdd)
-
+![Login (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/29fa50a5-e4ff-47f2-b71e-4463a32ccc57)
 ## 🔹Profile
-![Profile (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/65f2bfbc-6e13-4128-9dee-f81e39ed2150)
-
+![Profile (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/4ee192ca-290a-45fe-a415-73719ffae4d9)
 ## 🔹Category
-![Category (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/7de307cf-4970-45c7-83e3-459d59d87e71)
-
+![Category (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/76aad204-6217-4b59-baa2-725a67209847)
 ## 🔹Blog Details and Like
-![Blog_Detail_and_Like (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/d850bacc-20e1-4aaf-bff0-da3049626609)
-
+![Blog_Detail_and_Like (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/3e2202ca-c57f-40c9-b64b-6eada6e2d439)
 ## 🔹Add Blog
-![Add_Blog (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/afac6034-1e73-43ca-9385-bea868da9ac8)
-
+![Add_Blog (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/b3c35b98-8412-448a-b525-bb9f2df9be08)
 ## 🔹Edit Blog
-![Edit_Blog (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/1d7227ed-9aa9-4ba3-8383-f802e821269e)
+![Edit_Blog (1)](https://github.com/Ali-Fallahi/Blogger/assets/101938082/10ea7766-b511-46c7-a405-a7b41c992f41)
