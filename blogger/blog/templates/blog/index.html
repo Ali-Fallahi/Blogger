@@ -1,0 +1,58 @@
+{% extends 'blog/base.html' %}
+
+{% block body %}
+<h1 style="text-align: center;">Our Blogs</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        {% for blog in blogs %}
+
+        <div style="margin-left: 30px; margin-bottom: 30px;" class="card">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h5 style="margin-top:120px;" class="card-title">{{ blog.title }}</h5>
+                </div>
+                <div class="col-md-6">
+                    <img style="border-radius: 30px; margin-left: 80px; margin-top: 20px;" width="200px" height="200px"
+                        src="{{ blog.image.url }}" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div style="padding: 40px;" class="col-md-12">
+
+                    <p class="card-text text">{{ blog.body }}</p>
+                    <h6>author: {{ blog.author }}</h6>
+                    <h6>{{ blog.created_on }}</h6>
+                    <a href="{% url 'blog:details' blog.slug %}" class="btn btn-outline-success btn-sm">Read
+                        More</a>
+                    {% if user.is_authenticated and request.user == blog.author %}
+                    <a href="{% url 'blog:update_blog' blog.id %}" class="btn btn-outline-primary btn-sm">Edit</a>
+                    {% endif %}
+                    {{ blog.total_likes }} ❤
+
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="col-md-4">
+        <div style="margin-right:20px;" class="card">
+            <div class="card-title">
+                <h1>Categories</h1>
+            </div>
+            <div class="card-body">
+                <ul>
+                    {% for category in categories %}
+                    <li>
+                        <a class="btn btn-primary" href="{% url 'blog:category' category.name %}">{{category.name}}</a>
+                        <p>{{ category.description }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

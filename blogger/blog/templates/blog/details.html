@@ -1,0 +1,28 @@
+{% extends 'blog/base.html' %}
+
+
+{% block body %}
+
+    <h1>{{ blog.title }}</h1>
+    <img style="  display: block; margin-left: auto; margin-right: auto;" class="rounded" width="400px" height="400px"
+         src="{{ blog.image.url }}" alt="">
+    <hr style="margin-left: 30%; margin-right: 30%;">
+    <p style="padding-left: 25%; padding-right: 25%;">{{ blog.body }}</p>
+    <hr style="margin-left: 30%; margin-right: 30%;">
+    <p style="padding-left: 25%; padding-right: 25%;">author: {{ blog.author }}</p>
+    <form action="{% url 'blog:like' blog.slug %}" method="post">
+        {% csrf_token %}
+        <div style="margin-left: 25%; margin-right: 25%;" class="row">
+            <div class="col-md-1">
+                <button type="submit" name='blog_slug'
+                        value="{{ blog.slug }}"
+                        class="btn btn-danger btn-sm">Like
+                </button>
+            </div>
+            <div class="col-md-1">
+                <p>{{ blog.total_likes }} ❤</p>
+            </div>
+        </div>
+    </form>
+
+{% endblock body %}

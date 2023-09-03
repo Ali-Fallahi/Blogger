@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    /* number of lines to show */
+    line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+div.blog {
+    margin: 15px;
+}

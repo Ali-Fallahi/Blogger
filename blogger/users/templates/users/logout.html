@@ -1,0 +1,8 @@
+{% extends "blog/base.html" %}
+{% block body %}
+<h1 style="text-align: center; color: red">You have been logged out</h1>
+<div class="d-flex justify-content-center">
+    <a class="btn btn-success col-md-2 text-center" href="{% url 'blog:index' %}">OK</a>
+</div>
+
+{% endblock body %}
